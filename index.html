@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTMLeCSS</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		div:nth-child(2){
+			background-color: red;
+			color: aquamarine;
+            width: 100px;
+            height: 100px;
+            transition: 1s
+		}
+        div:nth-child(2):hover{
+            margin: 300px;
+			border-radius: 50%;
+            background-image: url(indice.jpeg);
+            background-size: cover;
+            transition: 1s;
+            transform: rotate(2turn) scale(4,1.5);
+    		}
+        p:nth-child(5){
+			background-color: yellowgreen;
+			color: lightcoral;
+		}
+        
+
+		
+	</style>
+</head>
+<body>
+    <div>
+        <div>UM</div>
+        <div></div>
+        <div>TRÊS</div>
+        <div>QUATRO</div>
+        <p>CINCO</p>
+    </div>
+</body>
+</html>
